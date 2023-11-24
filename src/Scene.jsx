@@ -9,9 +9,7 @@ import {
   Scroll,
   ScrollControls,
 } from "@react-three/drei";
-import { Lucy } from "./Lucy";
 import { ButterFly } from "./Butterfly";
-import Content from "./Content";
 const Scene = () => {
   return (
     <>

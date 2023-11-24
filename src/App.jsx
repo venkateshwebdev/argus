@@ -2,8 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import { Canvas } from "@react-three/fiber";
 import Scene from "./Scene";
-import { OrbitControls, OrthographicCamera, Sky } from "@react-three/drei";
-import Content from "./Content";
+import {OrthographicCamera } from "@react-three/drei";
 
 function App() {
   const [count, setCount] = useState(0);
