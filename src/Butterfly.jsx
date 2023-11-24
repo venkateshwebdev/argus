@@ -4,7 +4,6 @@ import { useFrame, useThree } from "@react-three/fiber";
 
 export function ButterFly(props) {
   const scroll = useScroll();
-  console.log(scroll.offset);
   const { camera } = useThree();
   const [animation, setAnimation] = useState(false);
   const group = useRef();
