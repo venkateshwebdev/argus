@@ -20,6 +20,7 @@ function App() {
   return (
     <>
       {/* <Content /> */}
+      <div className="absolute h-[50px] w-[50px] border-2 border-black rounded-full top-0 left-0 z-50 pointer-events-auto transition-all duration-75 " style={{transform:`translate(${position.x}px,${position.y}px)`}}></div>
       <div className="h-[100vh] fixed bg-gray-300 w-full top-0 left-0">
         <Canvas shadows>
           <OrthographicCamera

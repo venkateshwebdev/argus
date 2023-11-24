@@ -34,39 +34,62 @@ const Scene = () => {
               <span className="text-black">S</span>
             </div>
             <div className=" w-screen h-screen plant object-contain text-3xl  flex items-center  justify-end font-bold">
-            <div className="w-[30%] max-md:w-full pr-16">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </div>
+              <div className="w-[30%] max-md:w-full pr-16">
+                Celestial Dancers : Graceful Ballet of Butterflies.
+              </div>
             </div>
             <div className=" w-screen h-screen flex flex-col gap-5 items-start justify-center p-16">
-            <p className="text-[160px] text-transparent font-bold ran" style={{WebkitTextStroke:"2px black"}}>&apos;01</p>                <h1 className="text-2xl font-bold">Lorem Ipsum Doloe sit , amet</h1>
+              <p
+                className="text-[160px] text-transparent font-bold ran"
+                style={{ WebkitTextStroke: "2px black" }}
+              >
+                &apos;01
+              </p>{" "}
+              <h1 className="text-2xl font-bold">
+                Fluttering Elegance: The Colorful World of Butterflies Revealed
+              </h1>
               <p className="w-1/2 max-md:w-full">
                 {" "}
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab
-                iste impedit maxime ex aperiam modi suscipit velit laboriosam
-                vel officiis dolorum, vero architecto. Temporibus quibusdam
-                tenetur perspiciatis, quo placeat voluptates?
+                Discover the vibrant and diverse palette of butterflies around
+                the globe, exploring the significance of their colors and
+                patterns in the natural world.
               </p>{" "}
             </div>
             <div className=" w-screen h-screen flex flex-col gap-5 items-end justify-center p-16">
-            <p className="text-[160px] text-transparent font-bold" style={{WebkitTextStroke:"2px black"}}>&apos;02</p> 
-            <h1 className="text-2xl font-bold">Lorem Ipsum Doloe sit , amet</h1>
-                         <p className="w-1/2 max-md:w-full">
+              <p
+                className="text-[160px] text-transparent font-bold"
+                style={{ WebkitTextStroke: "2px black" }}
+              >
+                &apos;02
+              </p>
+              <h1 className="text-2xl font-bold">
+                Beyond Beauty: The Surprising Intelligence of Butterflies
+              </h1>
+              <p className="w-1/2 max-md:w-full">
                 {" "}
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab
-                iste impedit maxime ex aperiam modi suscipit velit laboriosam
-                vel officiis dolorum, vero architecto. Temporibus quibusdam
-                tenetur perspiciatis, quo placeat voluptates?
+                Delve into the fascinating cognitive abilities of butterflies,
+                from navigation skills to complex behaviors, showcasing the
+                intelligence behind their delicate appearance.
               </p>{" "}
             </div>
             <div className=" w-screen h-screen flex flex-col gap-5 items-start justify-center p-16">
-            <p className="text-[160px] text-transparent font-bold" style={{WebkitTextStroke:"2px black"}}>&apos;03</p>
-            <h1 className="text-2xl font-bold">Lorem Ipsum Doloe sit , amet</h1>
+              <p
+                className="text-[160px] text-transparent font-bold"
+                style={{ WebkitTextStroke: "2px black" }}
+              >
+                &apos;03
+              </p>
+              <h1 className="text-2xl font-bold">
+                Butterflies in Art: A Timeless Muse
+              </h1>
               <p className="w-1/2 max-md:w-full">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab
-                iste impedit maxime ex aperiam modi suscipit velit laboriosam
-                vel officiis dolorum, vero architecto. Temporibus quibusdam
-                tenetur perspiciatis, quo placeat voluptates?
+                Take a visual journey through the world of art inspired by
+                butterflies, from ancient civilizations to contemporary
+                masterpieces, exploring the enduring influence of these delicate
+                creatures.
               </p>
             </div>
+            <p className="">@Venkatesh Sirigineedi</p>
           </Scroll>
         </Scroll>
       </ScrollControls>
