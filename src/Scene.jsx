@@ -89,7 +89,6 @@ const Scene = () => {
                 creatures.
               </p>
             </div>
-            <p className="">@Venkatesh Sirigineedi</p>
           </Scroll>
         </Scroll>
       </ScrollControls>
