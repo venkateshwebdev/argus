@@ -64,6 +64,8 @@ export function ButterFly(props) {
       group.current.position.x =
         ((scroll.offset - 0.8) / (0.9 - 0.8)) * (3 - -3) + -3;
     }
+    if (scroll.offset > 0.9 && scroll.offset < 1) {
+      }
   });
   useEffect(() => {
     animation && actions[animation].fadeIn().play();
@@ -86,7 +88,10 @@ export function ButterFly(props) {
                       geometry={nodes.Object_7.geometry}
                       material={materials["Material_0.001"]}
                       skeleton={nodes.Object_7.skeleton}
-                    />
+                      
+                    >
+                        {/* <meshStandardMaterial color={"red"} wireframe /> */}
+                    </skinnedMesh>
                     <group name="bee110_107" />
                   </group>
                 </group>
