@@ -18,7 +18,6 @@
 .plant{
   background-image: url("/plant.png");
   background-repeat: no-repeat;
-  background-position-x: -90%;
 }
 .ran{
   background-image: url("/ran.png");
