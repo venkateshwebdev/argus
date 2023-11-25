@@ -22,7 +22,9 @@ const Scene = () => {
         style={{ height: "100vh", width: "100vw" }}
       >
         <Scroll>
-          <ButterFly />
+            <Center>
+            <ButterFly />
+            </Center>
         </Scroll>
         <Scroll>
           <Scroll html children>

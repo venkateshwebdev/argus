@@ -16,8 +16,8 @@ export function ButterFly(props) {
     "/stylized_flying_bee_bird_rigged.glb"
   );
   const { actions } = useAnimations(animations, group);
-  useFrame(() => {
-    group.current.position.y = scroll.offset * -30;
+  useFrame(({clock}) => {
+    group.current.position.y=-window.innerHeight * scroll.offset *0.04
     if (scroll.offset > 0 && scroll.offset < 0.1) {
       setAnimation(false);
       group.current.rotation.x =
