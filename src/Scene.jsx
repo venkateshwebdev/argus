@@ -35,7 +35,7 @@ const Scene = () => {
             </div>
             <div className=" w-screen h-screen plant object-contain text-3xl  flex items-center  justify-end font-bold">
               <div className="w-[30%] max-md:w-full pr-16">
-                Celestial Dancers : Graceful Ballet of Butterflies.
+                Celestial Dancers : Graceful Ballet of Bees.
               </div>
             </div>
             <div className=" w-screen h-screen flex flex-col gap-5 items-start justify-center p-16">
@@ -46,11 +46,11 @@ const Scene = () => {
                 &apos;01
               </p>{" "}
               <h1 className="text-2xl font-bold">
-                Fluttering Elegance: The Colorful World of Butterflies Revealed
+                Fluttering Elegance: The Colorful World of Bees Revealed
               </h1>
               <p className="w-1/2 max-md:w-full">
                 {" "}
-                Discover the vibrant and diverse palette of butterflies around
+                Discover the vibrant and diverse palette of Bees around
                 the globe, exploring the significance of their colors and
                 patterns in the natural world.
               </p>{" "}
@@ -63,11 +63,11 @@ const Scene = () => {
                 &apos;02
               </p>
               <h1 className="text-2xl font-bold">
-                Beyond Beauty: The Surprising Intelligence of Butterflies
+                Beyond Beauty: The Surprising Intelligence of Bees
               </h1>
               <p className="w-1/2 max-md:w-full">
                 {" "}
-                Delve into the fascinating cognitive abilities of butterflies,
+                Delve into the fascinating cognitive abilities of Bees,
                 from navigation skills to complex behaviors, showcasing the
                 intelligence behind their delicate appearance.
               </p>{" "}
@@ -80,11 +80,11 @@ const Scene = () => {
                 &apos;03
               </p>
               <h1 className="text-2xl font-bold">
-                Butterflies in Art: A Timeless Muse
+                Bees in Art: A Timeless Muse
               </h1>
               <p className="w-1/2 max-md:w-full">
                 Take a visual journey through the world of art inspired by
-                butterflies, from ancient civilizations to contemporary
+                Bees, from ancient civilizations to contemporary
                 masterpieces, exploring the enduring influence of these delicate
                 creatures.
               </p>
