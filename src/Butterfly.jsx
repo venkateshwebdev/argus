@@ -75,12 +75,12 @@ export function ButterFly(props) {
     <>
       <directionalLight position={[5, 0, 5]} color={"red"} intensity={2} />
       <directionalLight position={[5, 0, 5]} color={"blue"} intensity={2} />
-      <group ref={group} {...props} dispose={null} scale={0.025} rotation={[Math.PI / 2, 0, 0]}>
+      <group ref={group} {...props} dispose={null} scale={0.02} rotation={[Math.PI / 2, 0, 0]}>
         <group name="Sketchfab_Scene">
           <group name="Sketchfab_model" rotation={[-Math.PI / 2, 0, 0]}>
             <group name="root">
               <group name="GLTF_SceneRootNode" rotation={[Math.PI / 2, 0, 0]}>
-                <group name="skeletal1_108" scale={0.05}>
+                <group name="skeletal1_108" scale={0.06}>
                   <group name="GLTF_created_0">
                     <primitive object={nodes.GLTF_created_0_rootJoint} />
                     <skinnedMesh

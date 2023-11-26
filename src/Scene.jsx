@@ -29,9 +29,15 @@ const Scene = () => {
         <Scroll>
           <Scroll html children>
             <div
-              className="w-screen min-h-screen text-transparent text-[160px] max-md:text-[120px] flex items-center justify-center font-bold flex-wrap"
+              className="w-screen relative min-h-screen text-transparent text-[160px] max-md:text-[120px] flex items-center justify-center font-bold flex-wrap"
               style={{ WebkitTextStroke: "2px black" }}
             >
+              <div className="flex h-[100px] px-16 py-10 fixed top-0 right-0">
+                <div className="flex flex-col gap-2 self-end justify-self-end">
+                <p className="h-[4px] w-[30px] bg-black"></p>
+                <p className="h-[4px] w-[30px] bg-black"></p>
+                </div>
+              </div>
               <span className="text-black">A</span>RGU
               <span className="text-black">S</span>
             </div>
